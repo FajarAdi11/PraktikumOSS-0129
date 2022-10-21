@@ -1,1 +1,4 @@
 Fajar Adi Setiawan> : <G.231.20.0129> : <KUDUS>
+
+Mata Kuliah : Open Source System
+Catatan : Praktikum dengan menggunakan GIT
