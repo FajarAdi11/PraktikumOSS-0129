@@ -1,0 +1,45 @@
+1. Buka Terminal atau Git Bash, dan masuk ke folder praktikum lalu.
+29
+2. Hapus semua file yang ada di folder tersebut (boleh menggunakan file explorer) atau
+menggunakan perintah berikut jika menggunakan Linux:
+Perintah Terminal
+rm *
+(Keterangan : Hapus semua file)
+3. Perbarui repositori remote dengan perintah Add, Commit, dan Push. Praktikum
+ini dimulai dengan repositori kosong baik di lokal maupun remote. (Pesan Commit
+bebas)
+4. Buatlah file baru dengan menggunakan Editor masing-masing. Beri nama DokumentasiA.txt. Unggah juga file tersebut dengan perintah Add, Commit, dan
+Push. (Pesan Commit bebas)
+Perintah Terminal
+notepad DokumentasiA.txt (Hanya Windows)
+touch DokumentasiA.txt (Hanya Linux)
+5. Berikan Tag 1 ke file tersebut dengan perintah berikut (Cara 2 direkomendasikan):
+(a) Cara 1:
+Perintah Terminal
+git tag -a <Versi>
+(Keterangan : Memberi Tag Sambil Membuka Editor)
+(b) Cara 2:
+Perintah Terminal
+git tag -a <Versi> -m "<Pesan>"
+(Keterangan : Memberi Tag Beserta Pesan)
+6. Tag tidak akan terunggah otomatis, untuk mengunggah gunakan perintah:
+Perintah Terminal
+git push --tags
+(Keterangan : Unggah Tags)
+30
+7. Buka repositori remote untuk mengecek tags secara daring
+8. Buat file baru dengan nama DokumentasiB, lalu unggah dengan Add, Commit,
+dan Push. (Pesan Commit bebas)
+9. beri tag lagi namun dengan versi yang berbeda. (Contoh 0.2)
+10. Unggah Tags. dan cek Repositori Hasil akhir seperti berikut:
+11. Bandingkan Tag 0.1 dengan Tag 0.2
+31
+12. Untuk menghapus tags yang sudah dibuat, dapat dilakukan dengan perintah berikut:
+Perintah Terminal
+git tag -d <Versi>
+(Keterangan : Hapus <Versi> dari lokal)
+13. Lalu hapus tags yang berada di remote dengan perintah berikut:
+Perintah Terminal
+git push origin --delete <Versi>
+(Keterangan : Hapus Tags dari Origin)
+14. Praktikum 6 Selesai
